@@ -1,0 +1,12 @@
+<div class="vjs-erd">
+  <div class="vjs-erd-canvas">
+    <vjs-diagram [options]="options" url="/dataset.json">
+      <vjs-controls orientation="column"/>
+    </vjs-diagram>
+    <erd-inspector/>
+  </div>
+
+  <div class="vjs-erd-palette">
+    <vjs-diagram-palette [preparedShapes]="preparedShapes" [showLabels]="true"/>
+  </div>
+</div>
